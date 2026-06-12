@@ -1,59 +1,44 @@
-# CSI 4142 - Assignment 4: Unsupervised Learning (Clustering & Recommendations) 
+# 🎬 Unsupervised Learning — Movie Clustering & Recommendation System
 
-This project was completed as part of the **Fundamentals of Data Science (CSI 4142)** course at the University of Ottawa.  
-It applies **unsupervised learning** techniques to a **Movies dataset**, with a focus on clustering and personalized recommendations.  
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python) ![scikit-learn](https://img.shields.io/badge/scikit--learn-Clustering-orange) ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
----
+> Clustering and personalized movie recommendations using unsupervised learning — K-Means, hierarchical clustering, and collaborative filtering.
 
-## Dataset
-**Movies Dataset**  
-- Includes movie metadata and user ratings.  
-- Attributes: title, genre, release year, popularity, user ratings, etc.  
-- Source: provided as part of CSI 4142 coursework (similar to Kaggle Movies dataset).  
+## 📌 Overview
 
----
+This project applies unsupervised learning to a movies dataset to discover hidden patterns, group similar content, and generate personalized recommendations — without any labeled training data.
 
-## Tools & Libraries
-- **Google Colab** (Jupyter Notebook environment)  
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn (clustering, similarity metrics)  
+## 🎯 Techniques Applied
 
----
+| Technique | Purpose |
+|---|---|
+| K-Means Clustering | Group movies by genre/popularity features |
+| Hierarchical Clustering | Dendrogram analysis of movie similarity |
+| Dimensionality Reduction (PCA) | Visualize high-dimensional clusters |
+| Collaborative Filtering | User-based movie recommendations |
 
-## Workflow
-1. **Data preprocessing**  
-   - Cleaning movie metadata and user ratings  
-   - Handling missing values  
+## 🔍 Key Findings
+- Identified natural genre clusters from metadata features
+- Built a recommendation engine suggesting movies based on viewing patterns
+- Visualized cluster separation using PCA 2D projection
 
-2. **Exploratory Data Analysis (EDA)**  
-   - Genre distribution, rating histograms, popularity trends  
+## 🛠️ Tech Stack
+`Python` · `scikit-learn` · `pandas` · `NumPy` · `Matplotlib` · `Seaborn`
 
-3. **Unsupervised Learning**  
-   - Clustering movies based on metadata (e.g., K-Means, hierarchical clustering)  
-   - Similarity measures (cosine similarity, Euclidean distance)  
+## 📂 Dataset
+Movies dataset with metadata: `title`, `genre`, `release year`, `popularity`, `user ratings`
 
-4. **Recommendations**  
-   - Content-based recommendations (movie-to-movie similarity)  
-   - User-based recommendations (collaborative filtering)  
+## 💼 Business Applications
+- Streaming platform recommendation engines (Netflix, Spotify)
+- Customer segmentation for e-commerce
+- Content-based filtering for media platforms
 
----
+## 🚀 Run Locally
+```bash
+git clone https://github.com/aichalf/Unsupervised-Learning-Clustering-Recommendations--Movies-dataset
+pip install scikit-learn pandas numpy matplotlib seaborn jupyter
+jupyter notebook Assignment_4_CSI4142.ipynb
+```
 
-## Key Insights
-- Clustering revealed **distinct groups of movies** based on genre and popularity.  
-- Recommendation system can suggest similar movies using **cosine similarity**.  
-- Demonstrates how unsupervised learning can improve **content discovery** on streaming platforms.  
-
----
-
-## Notebook
-- Google Colab Link: [View Notebook](https://colab.research.google.com/drive/19B-ZX34GQas1s_s_Ef7LhOfSlHz7PjYo?usp=sharing)  
-- Local copy: `Assignment_4_CSI4142.ipynb` (included in this repository).  
-
----
-
-## Author
-Created by **Aicha Lfakir**  
- GitHub Portfolio: [@aichalf](https://github.com/aichalf)  
- LinkedIn: [Aicha Lfakir](https://www.linkedin.com/in/aicha-lfakir)  
+## 👩‍💻 Author
+**Aicha Lfakir** · [LinkedIn](https://linkedin.com/in/aicha-lfakir) · [GitHub](https://github.com/aichalf)
